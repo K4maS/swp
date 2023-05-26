@@ -1,0 +1,33 @@
+.main-films {
+    color: white;
+    margin-bottom: 70px;
+    &__block {
+        width: 100%;
+        background: url('../img/star-wars-films.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__text-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 30px 70px;
+        min-height: 300px;
+        width: 50%;
+        background: linear-gradient(to right, black, transparent);
+    }
+    &__title {
+        font-size: 35px;
+        margin: 0;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    &__text {
+        font-size: 20px;
+    }
+}

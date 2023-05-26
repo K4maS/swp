@@ -1,0 +1,122 @@
+@import './normolize/normolize.css';
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:wght@300;400;500;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: whitesmoke;
+  margin: 0;
+  background-color: #031010;
+  font-family: "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+p {
+  margin: 0%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.header {
+  margin-bottom: 70px;
+  background-color: #282c34;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-bottom: 1px solid whitesmoke;
+}
+.header__logo {
+  height: 80px;
+  pointer-events: none;
+}
+.header__logo-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 9px;
+}
+
+.main-films {
+  color: white;
+  margin-bottom: 70px;
+}
+.main-films__block {
+  width: 100%;
+  background: url("../img/star-wars-films.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-films__text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 70px;
+  min-height: 300px;
+  width: 50%;
+  background: linear-gradient(to right, black, transparent);
+}
+.main-films__title {
+  font-size: 35px;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.main-films__text {
+  font-size: 20px;
+}
+
+.films__back-link {
+  margin-bottom: 70px;
+  display: inline-block;
+}
+.films__list {
+  margin-bottom: 70px;
+  display: grid;
+  gap: 30px;
+}
+.films__item {
+  padding: 30px;
+  background-color: #282c34;
+  border-radius: 1px;
+}/*# sourceMappingURL=style.css.map */
